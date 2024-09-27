@@ -1,0 +1,5 @@
+currentYear = int(input("what year is this? : "))
+currentAge = input("How old are you? " )
+futureYear = int( input("enter the future year : "))
+futureage = (futureYear-currentYear) + int(currentAge)
+print("In " + str(futureYear) + " , you will be " + str(futureage) +" years old")
