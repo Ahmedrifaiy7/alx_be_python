@@ -1,5 +1,10 @@
-currentYear = int(input("what year is this? : "))
-currentAge = input("how old are you? : " )
-futureYear = int( input("enter the future year : "))
-futureage = (futureYear-currentYear) + int(currentAge)
-print("In " + str(futureYear) + " , you will be " + str(futureage) +" years old")
+# future_age_calculator.py
+
+# Prompt the user to enter their current age
+current_age = int(input("How old are you? "))
+
+# Calculate the user's age in 2050
+future_age = current_age + 27  # Adding 27 years to the current age
+
+# Print the result
+print(f"In 2050, you will be {future_age} years old.")
